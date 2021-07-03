@@ -69,9 +69,9 @@ module Readingtime
 
     def format_approx(seconds)
       if seconds > 59
-        '%d minutes' % (seconds.to_f/60).round
+        '%d minutos' % (seconds.to_f/60).round
       else
-        '%d seconds' % seconds
+        '%d segundos' % seconds
       end
     end
 
